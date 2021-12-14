@@ -8,7 +8,9 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @author Alexander Sánchez Osorio
+ *
+ * @author nbsc1
+ * Reto 2 Ciclo 4
  */
 @Document(collection = "usuarios")
 @NoArgsConstructor
@@ -23,8 +25,8 @@ public class User implements Serializable {
         private Integer id;
         private String identification;
         private String name;
-        private Date birthtDay;
-        private String monthBirthtDay;
+       //private Date birthtDay;
+       //private String monthBirthtDay;
         private String address;
         private String cellPhone;
         private String email;

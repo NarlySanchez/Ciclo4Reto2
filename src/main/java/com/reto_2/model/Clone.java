@@ -8,7 +8,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import javax.persistence.Id;
 
 /**
- * @author Alexander Sánchez Osorio
+ *
+ * @author nbsc1
+ * Reto 2 Ciclo 4
  */
 @Document(collection = "clone")
 @Data
